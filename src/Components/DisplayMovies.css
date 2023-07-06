@@ -1,0 +1,39 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    /* padding: 3px; */
+    margin: 5px 0;
+    background-color: wheat;
+
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (max-width:550px) {
+    .media {
+        width: 46%;
+    }
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.poster{
+    height: 300px;
+}
+   .ChipStyle{
+    margin-left: 5px;
+    text-align: left;
+    
+   }
